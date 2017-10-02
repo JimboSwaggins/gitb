@@ -26,7 +26,7 @@ public class Engine{
 	}
 
 	public Engine() {
-		this.gameState = gameState.MAINSCREEN;
+		this.gameState = GAMESTATE.MAINSCREEN;
 		commands = new Command[]{newCommand("help [command]",true,
 				"-> returns a list of commands,\n or information on a specific command"),
 				newCommand("check",true,"-> Returns a true/false on whether a system is online"),
